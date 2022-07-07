@@ -1,0 +1,1450 @@
+@import "~bootstrap/scss/bootstrap";
+@import "utils";
+
+$font_type0: 500 27px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type1: 600 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 800 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 700 25px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 600 25px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type5: 600 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type6: 800 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type7: 500 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type8: 700 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type9: 500 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type10: 800 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type11: 600 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type12: 600 20px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type13: 500 19px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type14: 17px/1.64 "Mulish", Helvetica, Arial, serif;
+
+.group {
+  @include flex-column;
+}
+.group_layout6 {
+  position: relative;
+}
+.group1 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.group1_layout {
+  position: absolute;
+  top: 40px;
+  height: 18px;
+  left: 789px;
+  width: 17px;
+}
+.icon2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon2_layout {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  min-width: 15px;
+  margin: 3px 2px 0px 0px;
+}
+.block {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.content_box {
+  display: flex;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(238, 238, 238);
+}
+.content_box_layout {
+  position: relative;
+  height: min-content;
+}
+.content_box_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 109px;
+}
+.image7 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image7_layout {
+  position: relative;
+  height: 70px;
+  width: 76px;
+  min-width: 76px;
+  margin: 15px 0px 10px 33px;
+}
+.content_box_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 9px;
+}
+.medium_title3 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.medium_title3_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 33px 0px 30px;
+}
+.content_box_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 438px;
+}
+.content_box_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 450px;
+}
+.block1 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(184, 181, 181);
+  border-radius: 5px 5px 5px 5px;
+}
+.block1_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 22px;
+}
+.flex {
+  display: flex;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  margin: 9px 24px;
+}
+.flex_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 17px;
+}
+.flex_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 18px;
+}
+.highlights {
+  @include font-face($font_type14, rgb(114, 114, 114), 0.20000000298023224px);
+}
+.highlights_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 4px 307px 0px 0px;
+}
+.content_box_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 467px;
+}
+.content_box_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 40px;
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon_layout {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+  margin: 27px 0px 28px;
+}
+.content_box_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 14px;
+}
+.subtitle {
+  @include font-face($font_type5, rgb(0, 0, 0), 0px);
+}
+.subtitle_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 33px 82px 34px 0px;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+  margin: 11px 0px 0px;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 322px;
+}
+.group_layout1 {
+  position: relative;
+  height: min-content;
+}
+.block2 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 8px 8px 8px 8px;
+}
+.block2_layout {
+  position: relative;
+  height: min-content;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 110px;
+  height: 113px;
+  left: -71px;
+  width: 142px;
+}
+.flex2 {
+  @include flex-column;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  margin: 90px 29px;
+}
+.flex3 {
+  display: flex;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+}
+.flex3_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 11px;
+}
+.box2 {
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.box2_layout {
+  position: relative;
+  height: 46px;
+}
+.flex3_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 63px;
+}
+.subtitle1 {
+  @include font-face($font_type8, rgb(60, 55, 68), 0px);
+}
+.subtitle1_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 8px 0px 11px;
+}
+.group_layout {
+  position: relative;
+  height: min-content;
+  width: 84.09%;
+  margin: 0px auto;
+}
+.subtitle2 {
+  @include font-face($font_type9, rgb(60, 55, 68), 0px);
+}
+.subtitle2_layout {
+  position: absolute;
+  top: 60px;
+  height: min-content;
+  bottom: 0px;
+  left: 53px;
+  right: 0px;
+}
+.subtitle2_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 60px 0px 0px 53px;
+}
+.flex4 {
+  display: flex;
+}
+.flex4_layout {
+  position: relative;
+  height: min-content;
+  margin: 72px 32px 0px;
+}
+.flex4_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 24px;
+}
+.icon3 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon3_layout {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  margin: 4px 0px 0px;
+}
+.flex4_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 18px;
+}
+.subtitle2_layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 0px 0px 1px;
+}
+.subtitle2_layout3 {
+  position: relative;
+  height: min-content;
+  width: 116px;
+  min-width: 116px;
+  margin: 474px auto 60px;
+}
+.icon4 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon31 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon32 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 42px;
+}
+.flex1_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 948px;
+}
+.flex5 {
+  @include flex-column;
+}
+.flex5_layout {
+  position: relative;
+  height: min-content;
+  margin: 51px 0px 71px;
+}
+.flex6 {
+  display: flex;
+}
+.flex6_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 1px;
+}
+.flex6_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 282px;
+}
+.block5 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block5_layout {
+  position: relative;
+  height: min-content;
+}
+.flex7 {
+  display: flex;
+}
+.flex7_layout {
+  position: relative;
+  height: min-content;
+  margin: 25px 24px;
+}
+.flex7_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 52px;
+}
+.icon6 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon6_layout {
+  position: relative;
+  height: 54px;
+  width: 52px;
+  min-width: 52px;
+  margin: 5px 0px 14px;
+}
+.flex7_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 18px;
+}
+.flex7_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 164px;
+}
+.flex8 {
+  @include flex-column;
+}
+.flex8_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 17px 3px 0px;
+}
+.subtitle2_layout4 {
+  position: relative;
+  height: min-content;
+}
+.medium_title31 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.medium_title31_layout {
+  position: relative;
+  height: min-content;
+  width: 59px;
+  min-width: 59px;
+  margin: 11px auto 0px;
+}
+.flex6_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 47px;
+}
+.block7 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block7_layout {
+  position: relative;
+  height: min-content;
+}
+.flex9 {
+  display: flex;
+}
+.flex9_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px;
+}
+.flex9_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 50px;
+}
+.icon10 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon10_layout {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  margin: 6px 0px 19px;
+}
+.flex9_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 23px;
+}
+.flex9_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 161px;
+}
+.flex10 {
+  @include flex-column;
+}
+.flex10_layout {
+  position: relative;
+  height: min-content;
+  margin: 1px 10px 0px 0px;
+}
+.subtitle2_layout5 {
+  position: relative;
+  height: min-content;
+}
+.medium_title32 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.medium_title32_layout {
+  position: relative;
+  height: min-content;
+  margin: 15px 32px 0px;
+}
+.block6 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block6_layout {
+  position: relative;
+  height: min-content;
+}
+.flex11 {
+  display: flex;
+}
+.flex11_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 9px;
+}
+.flex11_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 75px;
+}
+.icon7 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon7_layout {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  margin: 6px 0px 9px 15px;
+}
+.flex11_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 7px;
+}
+.flex11_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 182px;
+}
+.flex12 {
+  @include flex-column;
+}
+.flex12_layout {
+  position: relative;
+  height: min-content;
+  margin: 1px 0px 0px;
+}
+.subtitle2_layout6 {
+  position: relative;
+  height: min-content;
+}
+.medium_title33 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.medium_title33_layout {
+  position: relative;
+  height: min-content;
+  width: 74px;
+  min-width: 74px;
+  margin: 15px auto 0px;
+}
+.flex13 {
+  display: flex;
+}
+.flex13_layout {
+  position: relative;
+  height: min-content;
+  margin: 50px 0px 0px;
+}
+.flex13_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 335px;
+}
+.group_layout2 {
+  position: relative;
+  height: min-content;
+}
+.block8 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block8_layout {
+  position: relative;
+  height: min-content;
+}
+.flex14 {
+  @include flex-column;
+}
+.flex14_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 26px;
+}
+.medium_title {
+  @include font-face($font_type3, rgb(60, 55, 68), 0px);
+}
+.medium_title_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 7px;
+}
+.medium_title5 {
+  @include font-face($font_type4, rgb(60, 55, 68), 0px);
+}
+.medium_title5_layout {
+  position: relative;
+  height: min-content;
+  margin: 40px 7px 0px;
+}
+.box14 {
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0px 1px 3px 0px rgba(60, 54, 54, 0.24705882352941178);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.box14_layout {
+  position: relative;
+  height: 36px;
+  margin: 8px 18px 0px 7px;
+}
+.medium_title5_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 24px 7px 0px;
+}
+.flex14_item {
+  @include flex-column;
+  position: relative;
+}
+.cover_block9 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.cover_block9_layout {
+  position: relative;
+  height: min-content;
+  margin: 8px 18px 75px 7px;
+}
+.image5 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.block9 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 8px 8px 8px 8px;
+}
+.block9_layout {
+  position: absolute;
+  top: 306px;
+  height: min-content;
+  bottom: 21px;
+  left: 0px;
+  right: 0px;
+  width: 31.04%;
+  margin: 0px 13.13% 0px 55.82%;
+}
+.subtitle6 {
+  @include font-face($font_type10, rgb(255, 255, 255), 0px);
+  width: 100%;
+  height: 100%;
+}
+.block10 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px 8px 8px 8px;
+}
+.block10_layout {
+  position: absolute;
+  top: 306px;
+  height: min-content;
+  bottom: 21px;
+  left: 0px;
+  right: 0px;
+  width: 31.04%;
+  margin: 0px 57.91% 0px 11.04%;
+}
+.subtitle7 {
+  @include font-face($font_type11, rgb(60, 55, 68), 0px);
+  width: 100%;
+  height: 100%;
+}
+.flex13_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 45px;
+}
+.flex13_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 568px;
+}
+.cover_block3 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block3_layout {
+  position: relative;
+  height: min-content;
+}
+.flex15 {
+  @include flex-column;
+}
+.flex15_layout {
+  position: relative;
+  height: min-content;
+  margin: 33px 26px;
+}
+.medium_title_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 0px 16px;
+}
+.flex16 {
+  display: flex;
+}
+.flex16_layout {
+  position: relative;
+  height: min-content;
+  margin: 46px 0px 0px 16px;
+}
+.flex16_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 426px;
+}
+.cover_block1 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block1_layout {
+  position: relative;
+  height: min-content;
+}
+.subtitle9 {
+  @include font-face($font_type8, rgb(255, 255, 255), 0px);
+}
+.subtitle9_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 18px 6px;
+}
+.flex16_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 42px;
+}
+.subtitle5 {
+  @include font-face($font_type9, rgb(0, 0, 0), 0px);
+}
+.subtitle5_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 1px 0px 9px;
+}
+.flex17 {
+  display: flex;
+}
+.flex17_layout {
+  position: relative;
+  height: min-content;
+  margin: 48px 0px 0px 16px;
+}
+.flex17_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 312px;
+}
+.cover_block2 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block2_layout {
+  position: relative;
+  height: min-content;
+}
+.flex17_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 156px;
+}
+.flex18 {
+  display: flex;
+}
+.flex18_layout {
+  position: relative;
+  height: min-content;
+  margin: 46px 0px 18px 16px;
+}
+.flex18_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 224px;
+}
+.cover_block {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+}
+.subtitle9_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 6px 18px 4px;
+}
+.flex18_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 244px;
+}
+.subtitle5_layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 3px 0px 7px;
+}
+.flex19 {
+  display: flex;
+}
+.flex19_layout {
+  position: relative;
+  height: min-content;
+  margin: 50px 0px 0px 1px;
+}
+.flex19_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 334px;
+}
+.cover_block4 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block4_layout {
+  position: relative;
+  height: min-content;
+}
+.flex20 {
+  @include flex-column;
+}
+.flex20_layout {
+  position: relative;
+  height: min-content;
+  margin: 31px 19px;
+}
+.medium_title_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 0px 23px;
+}
+.flex21 {
+  display: flex;
+}
+.flex21_layout {
+  position: relative;
+  height: min-content;
+  margin: 37px 0px 15px 8px;
+}
+.flex21_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 120px;
+}
+.group_layout3 {
+  position: relative;
+  height: min-content;
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image2_layout {
+  position: relative;
+  height: 118px;
+  width: 60px;
+  min-width: 60px;
+  margin: 0px 0px 2px auto;
+}
+.image3 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon8 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon8_layout {
+  position: absolute;
+  top: 0px;
+  height: 59px;
+  left: 0px;
+  width: 60px;
+  min-width: 60px;
+  margin: 10px 0px 51px;
+}
+.image4 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon9 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon9_layout {
+  position: absolute;
+  top: 0px;
+  height: 63px;
+  left: 0px;
+  width: 63px;
+  min-width: 63px;
+  margin: 29px 29px 28px 28px;
+}
+.flex21_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.flex21_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.flex22 {
+  @include flex-column;
+}
+.flex22_layout {
+  position: relative;
+  height: min-content;
+  margin: 8px 0px;
+}
+.icon11 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon11_layout {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+}
+.icon11_layout1 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 8px 0px 0px;
+}
+.icon11_layout2 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 8px 0px 0px;
+}
+.icon11_layout3 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 8px 0px 0px;
+}
+.flex21_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 12px;
+}
+.flex21_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 116px;
+}
+.flex23 {
+  @include flex-column;
+}
+.flex23_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 0px 9px;
+}
+.highlights1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type13, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.highlights1_box_layout {
+  position: relative;
+  height: min-content;
+}
+.highlights11_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 5px 0px 0px;
+}
+.flex19_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 45px;
+}
+.flex19_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 568px;
+}
+.cover_block7 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block7_layout {
+  position: relative;
+  height: min-content;
+}
+.flex24 {
+  @include flex-column;
+}
+.flex24_layout {
+  position: relative;
+  height: min-content;
+  margin: 30px 34px;
+}
+.medium_title_layout3 {
+  position: relative;
+  height: min-content;
+  margin: 0px 8px;
+}
+.flex25 {
+  display: flex;
+}
+.flex25_layout {
+  position: relative;
+  height: min-content;
+  margin: 33px 0px 0px 8px;
+}
+.flex25_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 402px;
+}
+.cover_block6 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block6_layout {
+  position: relative;
+  height: min-content;
+}
+.medium_title4 {
+  @include font-face($font_type3, rgb(255, 255, 255), 0px);
+}
+.medium_title4_layout {
+  position: relative;
+  height: min-content;
+  margin: 3px 20px 4px;
+}
+.flex25_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 58px;
+}
+.subtitle5_layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 3px 0px 7px;
+}
+.flex26 {
+  display: flex;
+}
+.flex26_layout {
+  position: relative;
+  height: min-content;
+  margin: 30px 0px 37px 8px;
+}
+.flex26_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 282px;
+}
+.cover_block5 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block5_layout {
+  position: relative;
+  height: min-content;
+}
+.flex26_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 178px;
+}
+.subtitle5_layout3 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 6px 0px 4px;
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 44px;
+}
+.flex1_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 497px;
+}
+.group_layout5 {
+  position: relative;
+  height: min-content;
+  margin: 51px 0px 72px;
+}
+.block3 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block3_layout {
+  position: relative;
+  height: min-content;
+}
+.flex27 {
+  @include flex-column;
+}
+.flex27_layout {
+  position: relative;
+  height: min-content;
+  margin: 60px 35px;
+}
+.block4 {
+  @include flex-column;
+}
+.block4_layout {
+  position: relative;
+  height: min-content;
+  width: 40.52%;
+  margin: 0px 53.86% 0px 5.62%;
+}
+.medium_title_layout4 {
+  position: relative;
+  height: min-content;
+}
+.flex28 {
+  display: flex;
+}
+.flex28_layout {
+  position: relative;
+  height: min-content;
+  margin: 79px 0px 482px;
+}
+.flex28_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 140px;
+}
+.group_layout4 {
+  position: relative;
+  height: min-content;
+}
+.cover_block11 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+
+
+}
+
+
+.cover_block11_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 29px 0px 0px;
+}
+.subtitle3 {
+  @include font-face($font_type6, rgb(255, 255, 255), 0px);
+}
+.subtitle3_layout {
+  position: relative;
+  height: min-content;
+  margin: 60px 15px 52px;
+}
+.cover_block10 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block10_layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 13px;
+  width: 70px;
+  min-width: 70px;
+  right: 0px;
+}
+.subtitle3_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 52px 8px 47px 14px;
+}
+.flex28_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 67px;
+}
+.flex28_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 30px;
+}
+.flex29 {
+  @include flex-column;
+}
+.flex29_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 0px 19px;
+}
+.icon5 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon5_layout {
+  position: relative;
+  height: 29px;
+  width: 30px;
+  min-width: 30px;
+}
+.icon5_layout1 {
+  position: relative;
+  height: 29px;
+  width: 30px;
+  min-width: 30px;
+  margin: 39px 0px 0px;
+}
+.flex28_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 10px;
+}
+.flex28_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 173px;
+}
+.flex30 {
+  @include flex-column;
+}
+.flex30_layout {
+  position: relative;
+  height: min-content;
+  margin: 25px 0px 19px;
+}
+.subtitle4 {
+  @include font-face($font_type7, rgb(0, 0, 0), 0px);
+}
+.subtitle4_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 39px 0px 0px;
+}
+.subtitle4_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 40px 0px 0px;
+}
+.medium_title1 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type0;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.medium_title1_layout {
+  position: absolute;
+  top: 755px;
+  height: min-content;
+  bottom: 63px;
+  left: 0px;
+  right: 0px;
+  width: 78.67%;
+  margin: 0px auto;
+}
+.cover_block8 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block8_layout {
+  position: absolute;
+  top: 523px;
+  height: min-content;
+  bottom: 188px;
+  left: 0px;
+  right: 0px;
+  width: 27.57%;
+  margin: 0px 64.79% 0px 7.65%;
+}
+.medium_title2 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type2;
+  color: rgb(254, 254, 254);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.medium_title2_layout {
+  position: relative;
+  height: min-content;
+  margin: 70px 4px 38px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.medium_title21 {
+  @include font-face($font_type2, rgb(254, 254, 254), 0px);
+}
+.medium_title21_layout {
+  position: absolute;
+  top: 555px;
+  height: min-content;
+  bottom: 264px;
+  left: 0px;
+  right: 0px;
+  width: 81.09%;
+  margin: 0px auto;
+}
+.medium_title_layout5 {
+  position: absolute;
+  top: 425px;
+  height: min-content;
+  bottom: 396px;
+  left: 0px;
+  right: 0px;
+  width: 76.26%;
+  margin: 0px auto;
+}
+.subtitle41 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type7;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.subtitle41_layout {
+  position: absolute;
+  top: 548px;
+  height: min-content;
+  bottom: 275px;
+  left: 0px;
+  right: 0px;
+  width: 83.5%;
+  margin: 0px auto;
+}
+.subtitle42 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type7;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.subtitle42_layout {
+  position: absolute;
+  top: 620px;
+  height: min-content;
+  bottom: 203px;
+  left: 0px;
+  right: 0px;
+  width: 42.86%;
+  margin: 0px auto;
+}
+.block11 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.block11_layout {
+  position: absolute;
+  top: 58px;
+  height: min-content;
+  bottom: 750px;
+  left: 0px;
+  right: 0px;
+  width: 29.78%;
+  margin: 0px 9.46% 0px 60.76%;
+  
+}
+.flex31 {
+  display: flex;
+}
+.flex31_layout {
+  position: relative;
+  height: min-content;
+  margin: 7px 12px;
+}
+.subtitle8 {
+  @include font-face($font_type12, rgb(60, 55, 68), 0px);
+}
+.subtitle8_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 0px 0px 5px;
+}
+.flex31_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 7px;
+}
+.flex31_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 16px;
+}
+.image6 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image6_layout {
+  position: relative;
+  height: 9px;
+  width: 11px;
+  min-width: 11px;
+  margin: 10px 5px 10px 0px;
+}

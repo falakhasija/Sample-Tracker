@@ -1,0 +1,275 @@
+@import "utils";
+
+$font_type0: 700 52px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type1: 600 32px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 500 32px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 700 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type5: 800 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type6: 600 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type7: 500 1em/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type8: 700 1.5em/1.2 "Mulish", Helvetica, Arial, serif;
+
+.block {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 216px;
+  height: 113px;
+  left: -71px;
+  width: 142px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  width: 92.92%;
+  margin: 45px auto;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 76px;
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image2_layout {
+  position: relative;
+  height: 70px;
+  width: 76px;
+  min-width: 76px;
+  margin: 0px 0px 2px;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 9px;
+}
+.medium_title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type6, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.medium_title_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 18px 0px 22px;
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 530px;
+}
+.big_title {
+  @include font-face($font_type3, rgb(60, 55, 68), 0px);
+}
+.big_title_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 26px 0px 12px;
+}
+.flex1_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 58px;
+}
+.flex1_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 57px;
+}
+.big_title_layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 28px 0px 10px;
+}
+.flex1_spacer4 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 61px;
+}
+.big_title2 {
+  @include font-face($font_type4, rgb(0, 0, 0), 0px);
+}
+.big_title2_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 28px 0px 10px;
+}
+.flex1_spacer5 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 49px;
+}
+.flex1_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 120px;
+}
+.block1 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.block1_layout {
+  position: relative;
+  height: min-content;
+  margin: 19px 0px 0px;
+}
+.big_title1 {
+  @include font-face($font_type5, rgb(255, 255, 255), 0px);
+}
+.big_title1_layout {
+  position: relative;
+  height: min-content;
+  margin: 6px 14px 13px 23px;
+}
+.flex2 {
+  display: flex;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  width: 94.9%;
+  margin: 76px 0.84% 4px 4.26%;
+}
+.flex2_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 789px;
+}
+.flex3 {
+  @include flex-column;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+  margin: 115px 0px 252px;
+}
+.hero_title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type0, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.hero_title_box_layout {
+  position: relative;
+  height: min-content;
+}
+.big_title3 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.big_title3_box_layout {
+  position: relative;
+  height: min-content;
+  width: 91.38%;
+  margin: 53px 8.62% 0px 0%;
+}
+.group {
+  @include flex-column;
+}
+.group_layout {
+  position: relative;
+  height: min-content;
+  width: 100%;
+  margin: 0px 0px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: absolute;
+  top: 0px;
+  height: 133px;
+  left: 0px;
+  right: 0px;
+  width: 21.8%;
+  margin: 83px 25.35% 0px 52.85%;
+}
+.big_title4 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type2, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.big_title4_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 51px 82px 21px 0px;
+}
+.big_title4_span0 {
+  @include font-face($font_type7, #000000ff, 0px);
+}
+.big_title4_span1 {
+  @include font-face($font_type8, #000000ff, 0px);
+}
+.flex2_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 27px;
+}
+.flex2_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 877px;
+}
+.group_layout1 {
+  position: relative;
+  height: min-content;
+}
+.image {
+  background: var(--src) center center / contain no-repeat;
+}
+.image_layout {
+  position: absolute;
+  top: 0px;
+  height: 133px;
+  left: 0px;
+  right: 0px;
+  width: 19.84%;
+  margin: 103px 19.04% 602px 61.12%;
+}
+.image3 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image3_layout {
+  position: relative;
+  height: 838px;
+}

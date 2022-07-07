@@ -1,0 +1,1316 @@
+@import "utils";
+
+$font_type0: 500 27px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type1: 600 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 800 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 700 25px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 600 25px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type5: 600 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type6: 800 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type7: 500 23px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type8: 700 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type9: 500 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type10: 800 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type11: 600 22px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type12: 500 21px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type13: 600 20px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type14: 17px/1.64 "Mulish", Helvetica, Arial, serif;
+
+.block {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.content_box {
+  display: flex;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(238, 238, 238);
+}
+.content_box_layout {
+  position: relative;
+  height: min-content;
+}
+.content_box_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 109px;
+}
+.image4 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image4_layout {
+  position: relative;
+  height: 70px;
+  width: 76px;
+  min-width: 76px;
+  margin: 15px 0px 10px 33px;
+}
+.content_box_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 9px;
+}
+.medium_title5 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.medium_title5_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 33px 0px 30px;
+}
+.content_box_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 438px;
+}
+.content_box_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 450px;
+}
+.block1 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(184, 181, 181);
+  border-radius: 5px 5px 5px 5px;
+}
+.block1_layout {
+  position: relative;
+  height: min-content;
+  margin: 23px 0px 22px;
+}
+.flex {
+  display: flex;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  margin: 9px 24px;
+}
+.flex_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 17px;
+}
+.group {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.group_layout {
+  position: relative;
+  height: 18px;
+  margin: 8px 0px 6px;
+}
+.icon2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon2_layout {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  min-width: 15px;
+  margin: 3px 0px 0px;
+}
+.flex_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 18px;
+}
+.highlights {
+  @include font-face($font_type14, rgb(114, 114, 114), 0.20000000298023224px);
+}
+.highlights_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 4px 307px 0px 0px;
+}
+.content_box_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 467px;
+}
+.content_box_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 40px;
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon_layout {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+  margin: 27px 0px 28px;
+}
+.content_box_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 14px;
+}
+.subtitle {
+  @include font-face($font_type5, rgb(0, 0, 0), 0px);
+}
+.subtitle_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 33px 82px 34px 0px;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+  margin: 11px 0px 0px;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 322px;
+}
+.group1 {
+  @include flex-column;
+}
+.group1_layout {
+  position: relative;
+  height: min-content;
+}
+.block2 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 8px 8px 8px 8px;
+}
+.block2_layout {
+  position: relative;
+  height: min-content;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 110px;
+  height: 113px;
+  left: -71px;
+  width: 142px;
+}
+.flex2 {
+  @include flex-column;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  margin: 90px 29px;
+}
+.flex3 {
+  display: flex;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+}
+.flex3_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 11px;
+}
+.box2 {
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.box2_layout {
+  position: relative;
+  height: 46px;
+}
+.flex3_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 63px;
+}
+.subtitle1 {
+  @include font-face($font_type8, rgb(60, 55, 68), 0px);
+}
+.subtitle1_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 8px 0px 11px;
+}
+.subtitle2 {
+  @include font-face($font_type9, rgb(60, 55, 68), 0px);
+}
+.subtitle2_layout {
+  position: relative;
+  height: min-content;
+  width: 116px;
+  min-width: 116px;
+  margin: 661px auto 60px;
+}
+.icon3 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon5 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 43px;
+}
+.flex1_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 337px;
+}
+.flex4 {
+  @include flex-column;
+}
+.flex4_layout {
+  position: relative;
+  height: min-content;
+  margin: 88px 0px 108px;
+}
+.group2 {
+  @include flex-column;
+}
+.group2_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 2px 0px 0px;
+}
+.block6 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block6_layout {
+  position: relative;
+  height: min-content;
+}
+.flex5 {
+  @include flex-column;
+}
+.flex5_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 26px;
+}
+.medium_title {
+  @include font-face($font_type3, rgb(60, 55, 68), 0px);
+}
+.medium_title_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 7px;
+}
+.medium_title4 {
+  @include font-face($font_type4, rgb(60, 55, 68), 0px);
+}
+.medium_title4_layout {
+  position: relative;
+  height: min-content;
+  margin: 40px 7px 0px;
+}
+.box8 {
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0px 1px 3px 0px rgba(60, 54, 54, 0.24705882352941178);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.box8_layout {
+  position: relative;
+  height: 36px;
+  margin: 8px 18px 0px 7px;
+}
+.medium_title4_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 24px 7px 0px;
+}
+.flex5_item {
+  @include flex-column;
+  position: relative;
+}
+.cover_block2 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.cover_block2_layout {
+  margin: 8px 18px 75px 7px;
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.block9 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 8px 8px 8px 8px;
+}
+.block9_layout {
+  position: absolute;
+  top: 303px;
+  height: min-content;
+  bottom: 24px;
+  left: 0px;
+  right: 0px;
+  width: 31.04%;
+  margin: 0px 13.13% 0px 55.82%;
+}
+.subtitle7 {
+  @include font-face($font_type10, rgb(255, 255, 255), 0px);
+  width: 100%;
+  height: 100%;
+}
+.block8 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px 8px 8px 8px;
+}
+.block8_layout {
+  position: absolute;
+  top: 303px;
+  height: min-content;
+  bottom: 24px;
+  left: 0px;
+  right: 0px;
+  width: 31.04%;
+  margin: 0px 58.51% 0px 10.45%;
+}
+.subtitle6 {
+  @include font-face($font_type11, rgb(60, 55, 68), 0px);
+  width: 100%;
+  height: 100%;
+}
+.block7 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block7_layout {
+  position: relative;
+  height: min-content;
+  margin: 48px 0px 0px 2px;
+}
+.flex6 {
+  @include flex-column;
+}
+.flex6_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 35px;
+}
+.medium_title_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 0px 7px;
+}
+.box8_layout1 {
+  position: relative;
+  height: 36px;
+  margin: 8px 0px 0px 7px;
+}
+.medium_title4_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 24px 7px 0px;
+}
+.flex7 {
+  display: flex;
+}
+.flex7_layout {
+  position: relative;
+  height: min-content;
+  margin: 49px 0px 0px 10px;
+}
+.flex7_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 104px;
+}
+.block8_layout1 {
+  position: relative;
+  height: min-content;
+}
+.subtitle61 {
+  @include font-face($font_type11, rgb(60, 55, 68), 0px);
+}
+.subtitle61_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 19px 7px 10px;
+}
+.flex7_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 47px;
+}
+.block9_layout1 {
+  position: relative;
+  height: min-content;
+}
+.subtitle71 {
+  @include font-face($font_type10, rgb(255, 255, 255), 0px);
+}
+.subtitle71_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 8px 7px 13px;
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 44px;
+}
+.flex1_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 568px;
+}
+.flex8 {
+  @include flex-column;
+}
+.flex8_layout {
+  position: relative;
+  height: min-content;
+  margin: 49px 0px 78px;
+}
+.flex9 {
+  display: flex;
+}
+.flex9_layout {
+  position: relative;
+  height: min-content;
+}
+.flex9_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 260px;
+}
+.cover_block {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+}
+.flex10 {
+  display: flex;
+}
+.flex10_layout {
+  position: relative;
+  height: min-content;
+  margin: 31px 21px;
+}
+.flex10_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 55px;
+}
+.icon9 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon9_layout {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  margin: 21px 0px 19px 5px;
+}
+.flex10_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 12px;
+}
+.flex10_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 151px;
+}
+.flex11 {
+  @include flex-column;
+}
+.flex11_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 9px;
+}
+.subtitle2_layout1 {
+  position: relative;
+  height: min-content;
+}
+.medium_title51 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.medium_title51_layout {
+  position: relative;
+  height: min-content;
+  width: 61px;
+  min-width: 61px;
+  margin: 22px auto 0px;
+}
+.flex9_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 41px;
+}
+.flex9_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 267px;
+}
+.group3 {
+  @include flex-column;
+}
+.group3_layout {
+  position: relative;
+  height: min-content;
+}
+.block12 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block12_layout {
+  position: relative;
+  height: min-content;
+}
+.flex12 {
+  @include flex-column;
+}
+.flex12_layout {
+  position: relative;
+  height: min-content;
+  margin: 31px 6px;
+}
+.subtitle21 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type9;
+  color: rgb(60, 55, 68);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.subtitle21_layout {
+  position: relative;
+  height: min-content;
+}
+.medium_title52 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type1;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.medium_title52_layout {
+  position: relative;
+  height: min-content;
+  width: 101px;
+  min-width: 101px;
+  margin: 22px auto 9px;
+}
+.icon91 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.block11 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block11_layout {
+  position: relative;
+  height: min-content;
+  margin: 42px 0px 0px;
+}
+.flex13 {
+  display: flex;
+}
+.flex13_layout {
+  position: relative;
+  height: min-content;
+  margin: 30px 26px;
+}
+.flex13_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 252px;
+}
+.flex14 {
+  @include flex-column;
+}
+.flex14_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 15px 6px;
+}
+.medium_title_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 0px 14px 0px 13px;
+}
+.flex15 {
+  display: flex;
+}
+.flex15_layout {
+  position: relative;
+  height: min-content;
+  margin: 42px 0px 0px;
+}
+.flex15_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 200px;
+}
+.group4 {
+  @include flex-column;
+}
+.group4_layout {
+  position: relative;
+  height: min-content;
+}
+.image5 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image5_layout {
+  position: absolute;
+  top: 0px;
+  height: 117px;
+  width: 100px;
+  min-width: 100px;
+  right: 0px;
+  margin: 0px 0px 83px;
+}
+.icon7 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image6 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image7 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.image8 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image8_layout {
+  position: absolute;
+  top: 0px;
+  height: 67px;
+  left: 0px;
+  width: 100px;
+  min-width: 100px;
+  margin: 50px 0px 83px;
+}
+.image9 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon8 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon8_layout {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  min-width: 120px;
+  margin: 42px auto 38px;
+}
+.flex15_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 26px;
+}
+.flex15_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.flex16 {
+  @include flex-column;
+}
+.flex16_layout {
+  position: relative;
+  height: min-content;
+  margin: 25px 0px 48px;
+}
+.icon6 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon6_layout {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+}
+.icon6_layout1 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 34px 0px 0px;
+}
+.icon6_layout2 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 33px 0px 0px;
+}
+.flex13_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 12px;
+}
+.flex13_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 96px;
+}
+.flex17 {
+  @include flex-column;
+}
+.flex17_layout {
+  position: relative;
+  height: min-content;
+  margin: 93px 0px 61px;
+}
+.subtitle9 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type12, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.subtitle9_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 1px 0px 0px;
+}
+.subtitle91_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 28px 0px 0px;
+}
+.subtitle91_box_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 27px 10px 0px 0px;
+}
+.flex13_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 21px;
+}
+.flex13_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.flex16_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 97px 0px 63px;
+}
+.icon6_layout3 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 34px 0px 0px;
+}
+.icon6_layout4 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  margin: 33px 0px 0px;
+}
+.flex13_item3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 103px;
+}
+.flex19 {
+  @include flex-column;
+}
+.flex19_layout {
+  position: relative;
+  height: min-content;
+  margin: 93px 0px 61px;
+}
+.subtitle91_box_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 0px 2px 0px 0px;
+}
+.subtitle91_box_layout3 {
+  position: relative;
+  height: min-content;
+  margin: 27px 31px 0px 0px;
+}
+.block5 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block5_layout {
+  position: relative;
+  height: min-content;
+  margin: 42px 0px 0px;
+}
+.flex20 {
+  display: flex;
+}
+.flex20_layout {
+  position: relative;
+  height: min-content;
+  margin: 30px 31px;
+}
+.flex20_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 416px;
+}
+.flex21 {
+  @include flex-column;
+}
+.flex21_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 37px 14px;
+}
+.medium_title_layout3 {
+  position: relative;
+  height: min-content;
+}
+.cover_block4 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block4_layout {
+  position: relative;
+  height: min-content;
+  margin: 33px 0px 0px;
+}
+.medium_title3 {
+  @include font-face($font_type3, rgb(255, 255, 255), 0px);
+}
+.medium_title3_layout {
+  position: relative;
+  height: min-content;
+  margin: 3px 20px 4px;
+}
+.cover_block3 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+}
+.cover_block3_layout {
+  position: relative;
+  height: min-content;
+  width: 70.15%;
+  margin: 30px 29.85% 0px 0%;
+}
+.flex20_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 58px;
+}
+.flex20_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 32px;
+}
+.flex22 {
+  @include flex-column;
+}
+.flex22_layout {
+  position: relative;
+  height: min-content;
+  margin: 66px 0px 41px;
+}
+.subtitle5 {
+  @include font-face($font_type9, rgb(0, 0, 0), 0px);
+}
+.subtitle5_layout {
+  position: relative;
+  height: min-content;
+}
+.subtitle5_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 43px 0px 0px;
+}
+.flex1_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 42px;
+}
+.flex1_item3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 497px;
+}
+.group5 {
+  @include flex-column;
+}
+.group5_layout {
+  position: relative;
+  height: min-content;
+  margin: 51px 0px 72px;
+}
+.block3 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.block3_layout {
+  position: relative;
+  height: min-content;
+}
+.flex23 {
+  @include flex-column;
+}
+.flex23_layout {
+  position: relative;
+  height: min-content;
+  margin: 60px 35px;
+}
+.block4 {
+  @include flex-column;
+}
+.block4_layout {
+  position: relative;
+  height: min-content;
+  width: 40.52%;
+  margin: 0px 53.86% 0px 5.62%;
+}
+.medium_title_layout4 {
+  position: relative;
+  height: min-content;
+}
+.flex24 {
+  display: flex;
+}
+.flex24_layout {
+  position: relative;
+  height: min-content;
+  margin: 79px 0px 482px;
+}
+.flex24_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 140px;
+}
+.group6 {
+  @include flex-column;
+}
+.group6_layout {
+  position: relative;
+  height: min-content;
+}
+.cover_block6 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block6_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 29px 0px 0px;
+}
+.subtitle3 {
+  @include font-face($font_type6, rgb(255, 255, 255), 0px);
+}
+.subtitle3_layout {
+  position: relative;
+  height: min-content;
+  margin: 60px 15px 52px;
+}
+.cover_block5 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block5_layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 13px;
+  width: 70px;
+  min-width: 70px;
+  right: 0px;
+}
+.subtitle3_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 52px 8px 47px 14px;
+}
+.flex24_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 67px;
+}
+.flex24_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 30px;
+}
+.flex25 {
+  @include flex-column;
+}
+.flex25_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 0px 19px;
+}
+.icon4 {
+  background: var(--src) center center / contain no-repeat;
+}
+.icon4_layout {
+  position: relative;
+  height: 29px;
+  width: 30px;
+  min-width: 30px;
+}
+.icon4_layout1 {
+  position: relative;
+  height: 29px;
+  width: 30px;
+  min-width: 30px;
+  margin: 39px 0px 0px;
+}
+.flex24_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 10px;
+}
+.flex24_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 173px;
+}
+.flex26 {
+  @include flex-column;
+}
+.flex26_layout {
+  position: relative;
+  height: min-content;
+  margin: 25px 0px 19px;
+}
+.subtitle4 {
+  @include font-face($font_type7, rgb(0, 0, 0), 0px);
+}
+.subtitle4_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 39px 0px 0px;
+}
+.subtitle4_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 40px 0px 0px;
+}
+.medium_title1 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type0;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.medium_title1_layout {
+  position: absolute;
+  top: 755px;
+  height: min-content;
+  bottom: 63px;
+  left: 0px;
+  right: 0px;
+  width: 78.67%;
+  margin: 0px auto;
+}
+.cover_block1 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block1_layout {
+  position: absolute;
+  top: 523px;
+  height: min-content;
+  bottom: 188px;
+  left: 0px;
+  right: 0px;
+  width: 27.57%;
+  margin: 0px 64.79% 0px 7.65%;
+}
+.medium_title2 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type2;
+  color: rgb(254, 254, 254);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.medium_title2_layout {
+  position: relative;
+  height: min-content;
+  margin: 70px 4px 38px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.medium_title21 {
+  @include font-face($font_type2, rgb(254, 254, 254), 0px);
+}
+.medium_title21_layout {
+  position: absolute;
+  top: 555px;
+  height: min-content;
+  bottom: 264px;
+  left: 0px;
+  right: 0px;
+  width: 81.09%;
+  margin: 0px auto;
+}
+.medium_title_layout5 {
+  position: absolute;
+  top: 425px;
+  height: min-content;
+  bottom: 396px;
+  left: 0px;
+  right: 0px;
+  width: 76.26%;
+  margin: 0px auto;
+}
+.subtitle41 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type7;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.subtitle41_layout {
+  position: absolute;
+  top: 548px;
+  height: min-content;
+  bottom: 275px;
+  left: 0px;
+  right: 0px;
+  width: 83.5%;
+  margin: 0px auto;
+}
+.subtitle42 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type7;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.subtitle42_layout {
+  position: absolute;
+  top: 620px;
+  height: min-content;
+  bottom: 203px;
+  left: 0px;
+  right: 0px;
+  width: 42.86%;
+  margin: 0px auto;
+}
+.block10 {
+  @include flex-column;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.block10_layout {
+  position: absolute;
+  top: 58px;
+  height: min-content;
+  bottom: 750px;
+  left: 0px;
+  right: 0px;
+  width: 29.78%;
+  margin: 0px 9.46% 0px 60.76%;
+}
+.flex27 {
+  display: flex;
+}
+.flex27_layout {
+  position: relative;
+  height: min-content;
+  margin: 7px 12px;
+}
+.subtitle8 {
+  @include font-face($font_type13, rgb(60, 55, 68), 0px);
+}
+.subtitle8_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 0px 0px 5px;
+}
+.flex27_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 7px;
+}
+.flex27_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 16px;
+}
+.image3 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image3_layout {
+  position: relative;
+  height: 9px;
+  width: 11px;
+  min-width: 11px;
+  margin: 10px 5px 10px 0px;
+}

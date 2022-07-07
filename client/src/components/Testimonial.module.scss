@@ -1,0 +1,447 @@
+@import "utils";
+
+$font_type0: 700 70px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type1: 500 32px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 500 30px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 500 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type5: 700 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type6: 800 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type7: 600 26px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type8: 500 18px/1.2 "Mulish", Helvetica, Arial, serif;
+
+.block {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.image {
+  background: var(--src) center center / contain no-repeat;
+}
+.image_layout {
+  position: absolute;
+  top: 296px;
+  height: 133px;
+  width: 174px;
+  right: 250px;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 216px;
+  height: 113px;
+  left: -71px;
+  width: 142px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  width: 92.92%;
+  margin: 45px auto;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 76px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: relative;
+  height: 70px;
+  width: 76px;
+  min-width: 76px;
+  margin: 0px 0px 2px;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 9px;
+}
+.medium_title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type7, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.medium_title_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 18px 0px 22px;
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 530px;
+}
+.big_title {
+  @include font-face($font_type3, rgb(60, 55, 68), 0px);
+}
+.big_title_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 26px 0px 12px;
+}
+.flex1_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 58px;
+}
+.big_title2 {
+  @include font-face($font_type4, rgb(60, 55, 68), 0px);
+}
+.big_title2_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 26px 0px 12px;
+}
+.flex1_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 55px;
+}
+.big_title3 {
+  @include font-face($font_type5, rgb(0, 0, 0), 0px);
+}
+.big_title3_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 28px 0px 10px;
+}
+.flex1_spacer4 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 56px;
+}
+.big_title_layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 28px 0px 10px;
+}
+.flex1_spacer5 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 53px;
+}
+.flex1_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 120px;
+}
+.block1 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.block1_layout {
+  position: relative;
+  height: min-content;
+  margin: 19px 0px 0px;
+}
+.big_title1 {
+  @include font-face($font_type6, rgb(255, 255, 255), 0px);
+}
+.big_title1_layout {
+  position: relative;
+  height: min-content;
+  margin: 6px 14px 13px 23px;
+}
+.hero_title {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type0;
+  color: rgb(60, 55, 68);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.hero_title_layout {
+  position: relative;
+  height: min-content;
+  width: 52.69%;
+  margin: 55px auto 0px;
+}
+.flex2 {
+  display: flex;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  width: 90.47%;
+  margin: 13px auto 83px;
+}
+.flex2_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 440px;
+}
+.cover_block2 {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block2_layout {
+  position: relative;
+  height: min-content;
+  margin: 118px 0px 0px;
+}
+.flex3 {
+  @include flex-column;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+  width: 74.09%;
+  margin: 56px auto;
+}
+.flex4 {
+  display: flex;
+}
+.flex4_layout {
+  position: relative;
+  height: min-content;
+}
+.flex4_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 80px;
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+  border-radius: 3px 3px 3px 3px;
+}
+.icon_layout {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  min-width: 80px;
+}
+.flex4_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 18px;
+}
+.flex4_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 137px;
+}
+.flex5 {
+  @include flex-column;
+}
+.flex5_layout {
+  position: relative;
+  height: min-content;
+  margin: 6px 0px 7px;
+}
+.big_title5 {
+  @include font-face($font_type2, rgb(0, 0, 0), 0px);
+}
+.big_title5_layout {
+  position: relative;
+  height: min-content;
+}
+.highlights {
+  @include font-face($font_type8, rgb(0, 0, 0), 0px);
+}
+.highlights_layout {
+  position: relative;
+  height: min-content;
+  margin: 9px 8px 0px 4px;
+}
+.big_title4 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.big_title4_layout {
+  position: relative;
+  height: min-content;
+  margin: 75px 6px 29px 5px;
+}
+.flex2_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 31px;
+}
+.flex2_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 671px;
+}
+.flex6 {
+  @include flex-column;
+}
+.flex6_layout {
+  position: relative;
+  height: min-content;
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image2_layout {
+  position: relative;
+  height: 50px;
+}
+.cover_block {
+  @include flex-column;
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0px 8px 15px 0px rgba(68, 142, 246, 0.22745098039215686);
+  border-radius: 16px 16px 16px 16px;
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+  width: 65.57%;
+  margin: 68px auto 0px;
+}
+.flex7 {
+  @include flex-column;
+}
+.flex7_layout {
+  position: relative;
+  height: min-content;
+  width: 74.09%;
+  margin: 56px auto;
+}
+.flex8 {
+  display: flex;
+}
+.flex8_layout {
+  position: relative;
+  height: min-content;
+}
+.flex8_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 80px;
+}
+.flex8_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 22px;
+}
+.flex8_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 174px;
+}
+.flex9 {
+  @include flex-column;
+}
+.flex9_layout {
+  position: relative;
+  height: min-content;
+  margin: 6px 0px 11px;
+}
+.big_title5_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 0px 25px 0px 0px;
+}
+.highlights_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 5px 0px 0px;
+}
+.big_title4_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 63px 6px 41px 5px;
+}
+.flex2_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 32px;
+}
+.flex10 {
+  @include flex-column;
+}
+.flex10_layout {
+  position: relative;
+  height: min-content;
+  margin: 27px 0px 0px;
+}
+.flex10_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 0 auto;
+  min-height: 90px;
+}
+.cover_block_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 1px 0px 0px;
+}
+.flex11 {
+  @include flex-column;
+}
+.flex11_layout {
+  position: relative;
+  height: min-content;
+  width: 74.09%;
+  margin: 56px auto;
+}
+.flex12 {
+  display: flex;
+}
+.flex12_layout {
+  position: relative;
+  height: min-content;
+}
+.flex12_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 80px;
+}
+.flex12_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 20px;
+}
+.flex12_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 205px;
+}
+.flex13 {
+  @include flex-column;
+}
+.flex13_layout {
+  position: relative;
+  height: min-content;
+  margin: 6px 0px 7px;
+}
+.highlights_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 9px 29px 0px 2px;
+}
+.big_title4_layout2 {
+  position: relative;
+  height: min-content;
+  margin: 63px 5px 41px 6px;
+}

@@ -1,0 +1,252 @@
+
+@import "utils";
+
+$font_type0: 700 45px/1.11 "Mulish", Helvetica, Arial, serif;
+$font_type1: 600 40px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 38px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 600 30px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 800 28px/2.14 "Mulish", Helvetica, Arial, serif;
+$font_type5: 700 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type6: 28px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type7: 800 28px/1.2 "Mulish", Helvetica, Arial, serif;
+
+.group {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.group_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.img {
+  background: var(--src) center center / contain no-repeat;
+}
+.img_layout {
+  position: absolute;
+  top: 212px;
+  height: 113px;
+  left: -77px;
+  width: 155px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  width: 95%;
+  margin: 42px auto;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 87px;
+}
+.img_layout1 {
+  position: relative;
+  height: 80px;
+  width: 87px;
+  min-width: 87px;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 17px;
+}
+.txt {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type3, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.txt_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 24px 0px 18px;
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 508px;
+}
+.txt1 {
+  @include font-face($font_type5, rgb(0, 0, 0), 0px);
+}
+.txt1_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 29px 0px 21px;
+}
+.flex1_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.txt2 {
+  @include font-face($font_type6, rgb(60, 55, 68), 0px);
+}
+.txt2_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 29px 0px 16px;
+}
+.flex1_spacer3 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.txt3 {
+  @include font-face($font_type6, rgb(60, 55, 68), 0px);
+}
+.txt3_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 31px 0px 14px;
+}
+.flex1_spacer4 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.txt4 {
+  @include font-face($font_type6, rgb(60, 55, 68), 0px);
+}
+.txt4_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 31px 0px 14px;
+}
+.flex1_spacer5 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 47px;
+}
+.flex1_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 120px;
+}
+.group1 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.group1_layout {
+  position: relative;
+  height: 53px;
+  margin: 22px 0px 5px;
+}
+.txt5 {
+  @include font-face($font_type7, rgb(255, 255, 255), 0px);
+  width: 100%;
+  height: 100%;
+}
+.flex2 {
+  display: flex;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  width: 93.59%;
+  margin: 146px 2.47% 137px 3.95%;
+}
+.flex2_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 729px;
+}
+.flex3 {
+  @include flex-column;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+  margin: 79px 0px 82px;
+}
+.txt6 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type0, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.txt6_box_layout {
+  position: relative;
+  height: min-content;
+}
+.txt7 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.txt7_layout {
+  position: relative;
+  height: min-content;
+  margin: 52px 0px 0px;
+}
+.txt8 {
+  @include font-face($font_type2, rgb(0, 0, 0), 0px);
+}
+.txt8_layout {
+  position: relative;
+  height: min-content;
+  margin: 46px 1px 0px 0px;
+}
+.group2 {
+  @include flex-column;
+}
+.group2_layout {
+  position: relative;
+  height: min-content;
+  width: 27.02%;
+  margin: 73px 72.98% 0px 0%;
+}
+.rect {
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.rect_layout {
+  position: absolute;
+  top: 0px;
+  height: 59px;
+  left: 0px;
+  right: 4px;
+  margin: 4px 0px 0px;
+}
+.txt9 {
+  @include font-face($font_type4, rgb(255, 255, 255), 0px);
+}
+.txt9_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 17px;
+}
+.flex2_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 111px;
+}
+.flex2_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 867px;
+}
+.img_layout2 {
+  position: relative;
+  height: 500px;
+}

@@ -1,0 +1,223 @@
+@import "utils";
+
+$font_type0: 600 60px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type1: 600 32px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type2: 800 31px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type3: 600 30px/1.2 "Mulish", Helvetica, Arial, serif;
+$font_type4: 700 23px/1.2 "Mulish", Helvetica, Arial, serif;
+
+.block {
+  display: flex;
+  background-color: rgb(254, 254, 254);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.block_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 850px;
+}
+.cover_block1 {
+  @include flex-column;
+  background-color: rgb(246, 249, 252);
+}
+.cover_block1_layout {
+  position: relative;
+  height: min-content;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 261px;
+  height: 112px;
+  left: -71px;
+  width: 142px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  margin: 42px 0px;
+}
+.flex1 {
+  display: flex;
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+  width: 88.71%;
+  margin: 0px auto;
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 87px;
+}
+.image {
+  background: var(--src) center center / contain no-repeat;
+}
+.image_layout {
+  position: relative;
+  height: 80px;
+  width: 87px;
+  min-width: 87px;
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 17px;
+}
+.big_title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type3, rgb(0, 0, 0), 0px);
+  white-space: pre-wrap;
+}
+.big_title_box_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 24px 0px 20px;
+}
+.cover_block {
+  display: flex;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+  margin: 108px 0px 92px 23px;
+}
+.cover_block_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 470px;
+}
+.box1 {
+  background-color: rgb(246, 249, 252);
+}
+.box1_layout {
+  position: relative;
+  height: 89px;
+  margin: 435px 0px 192px 334px;
+}
+.cover_block_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 75px;
+}
+.cover_block_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 282px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: relative;
+  height: 16px;
+  width: 9px;
+  min-width: 9px;
+  margin: 435px 273px 265px 0px;
+}
+.block_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 285px;
+}
+.block_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 785px;
+}
+.flex2 {
+  @include flex-column;
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  margin: 148px 261px 212px 0px;
+}
+.hero_title {
+  @include font-face($font_type0, rgb(0, 0, 0), 0px);
+}
+.hero_title_layout {
+  position: relative;
+  height: min-content;
+}
+.big_title1 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+}
+.big_title1_layout {
+  position: relative;
+  height: min-content;
+  margin: 128px 0px 0px;
+}
+.box2 {
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0px 1px 3px 0px rgba(60, 54, 54, 0.24705882352941178);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 4px 4px 4px 4px;
+}
+.box2_layout {
+  position: relative;
+  height: 60px;
+  margin: 11px 6px 0px 0px;
+}
+.flex3 {
+  display: flex;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+  margin: 121px 0px 0px 5px;
+}
+.big_title1_layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+}
+.flex3_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 158px;
+}
+.subtitle {
+  @include font-face($font_type4, rgb(0, 215, 178), 0px);
+}
+.subtitle_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 2px 0px 9px;
+}
+.block1 {
+  @include flex-column;
+  background-color: rgb(69, 143, 246);
+  border-radius: 4px 4px 4px 4px;
+}
+.block1_layout {
+  position: relative;
+  height: min-content;
+  width: 25.38%;
+  margin: 125px 74.62% 0px 0%;
+}
+.big_title2 {
+  @include font-face($font_type2, rgb(255, 255, 255), 0px);
+}
+.big_title2_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 16px 12px 25px;
+}

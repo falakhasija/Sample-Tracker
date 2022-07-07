@@ -1,0 +1,17 @@
+[command]/home/runner/work/_temp/3542ed72-fe56-4115-88ba-31d589c8b23d/terraform-bin output
+db_instance_name = "huex-new"
+db_name = "patient-sample-tracker"
+db_password = "WURfWo!RjzFBi!fn"
+db_port = "5432"
+db_private_ip = "10.109.178.43"
+db_username = "patient-sample-tracker-user"
+::debug::Terraform exited with code 0.
+::debug::stdout: db_instance_name = "huex-new"%0Adb_name = "patient-sample-tracker"%0Adb_password = "WURfWo!RjzFBi!fn"%0Adb_port = "5432"%0Adb_private_ip = "10.109.178.43"%0Adb_username = "patient-sample-tracker-user"%0A
+::debug::stderr: 
+::debug::exitcode: 0
+
+::set-output name=stdout::db_instance_name = "huex-new"%0Adb_name = "patient-sample-tracker"%0Adb_password = "WURfWo!RjzFBi!fn"%0Adb_port = "5432"%0Adb_private_ip = "10.109.178.43"%0Adb_username = "patient-sample-tracker-user"%0A
+
+::set-output name=stderr::
+
+::set-output name=exitcode::0
